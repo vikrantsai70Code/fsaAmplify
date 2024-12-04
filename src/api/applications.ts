@@ -1,5 +1,6 @@
 const API_URL = 'http://localhost:5000/api';
 
+
 export const createApplication = async (applicationData: any) => {
   const response = await fetch(`${API_URL}/applications`, {
     method: 'POST',
