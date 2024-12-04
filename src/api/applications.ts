@@ -12,6 +12,7 @@ export const createApplication = async (applicationData: any) => {
   return response.json();
 };
 
+
 export const getApplications = async () => {
   const response = await fetch(`${API_URL}/applications`);
   return response.json();
